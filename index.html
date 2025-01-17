@@ -247,7 +247,8 @@
             </div>
           </div>
           <div class="message">
-            <form id="comment">
+            <form action="https://api.web3forms.com/submit" method="POST" id="comment">
+              <input type="hidden" name="access_key" value="185b4078-4223-450c-9b63-c6d0bcf2ef8e">
               <input type="text" id="name" name="name" placeholder="Name" class="form" required>
               <input type="email" id="email" name="email" placeholder="Email" class="form" required>
               <textarea id="comment" name="comment" id="" cols="30" rows="10" placeholder="Message" class="form"></textarea>
