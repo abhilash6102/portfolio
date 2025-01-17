@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <head>
+  <body >
+    <!-- navbar -->
+    <div class="body">
+      <nav class="navbar">
+        <div class="header">
+          <div class="name">Abhilash.</div>
+          <div class="nav white">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="light">
+            <div class="bright">
+              <img src="images/half-moon.png" alt=""  id="dark">
+              <img src="images/brightness.png" alt=""  id="brightness">
+            </div>
+            <a href="#contact">
+              <div class="phone phone-white">
+                <p>Contact</p>
+                <img src="images/up-right-arrow.png" alt="" class="black-image">
+                <img src="images/up-right-arrow-white.png" alt="" class="white-image">
+              </div>
+            </a>
+          </div>
+        </div>
+      </nav>
+  
+      <!-- Home page -->
+       <div id="home">
+          <div class="photo">
+            <img src="images/Abhilash.jpg" alt="">
+          </div>
+  
+          <div class="title">
+            <p>Hi! I'm Kanchukota Abhilash</p>
+          </div>
+          <div class="caption">
+            <div class="caption1">Frontend Web Developer</div>
+            <div class="caption2">based in India</div>
+          </div> 
+          <div class="caption3">I am a frontend developer from Hyderabad with 1 year of internship experience</div>
+          
+          <div class="buttons">
+            <div class="contact-btn">
+              <button class="contactme btn-grad">
+                <p>Contact Me</p>
+                <img src="images/side Arrow.png" alt="">
+              </button>
+            </div>
+            <a href="https://drive.google.com/file/d/17SD9h7Yce4witHzqq0RZ5_NolfW8ov4c/view?usp=drive_link" target="_blank" download>
+              <button class="resume">
+                <p>My Resume</p>
+                <img src="images/download.png" alt="">
+              </button>
+            </a>
+        </div>
+      </div>
+  
+  <!-- about me -->
+      <div id="about"> 
+        <div class="aboutme aboutme-white">About Me</div>
+        <div class="wrapper aboutme-white">
+          <div class="image">
+            <img src="images/Abhilash Image.jpg" alt="">
+          </div>
+          <div class="about-container">
+            <div class="about">I am a frontend web developer with one year of hands-on internship experience, I have had the privilege of working alongside esteemed organizations, playing a role in their growth and achievements. My journey so far has been marked by meaningful collaborations, allowing me to apply my skills to create impactful digital solutions while honing my expertise in the field.</div>
+            <div class="slide">
+              <div onclick="showBlock('skills', this)" class="active">Skills</div>
+              <div onclick="showBlock('education', this)" >Education</div>
+              <div onclick="showBlock('experience', this)">Experience</div>
+            </div>
+            <div class="content-container">
+              <div id="skills" class="block active">
+                <div class="skill-set">
+                  <div class=" skill skill-white"><img src="images/java.png" alt=""><p>Java</p></div>
+                  <div class=" skill skill-white"><img src="images/html-5.png" alt=""><p>HTML5</p></div>
+                  <div class=" skill skill-white"><img src="images/css-3.png" alt=""><p>CSS3</p></div>
+                  <div class=" skill skill-white"><img src="images/js.png" alt=""><p>JavaScript</p></div>
+                  <div class=" skill skill-white"><img src="images/mysql.png" alt=""><p>MySQL</p></div>
+                  <div class=" skill skill-white"><img src="images/pngwing.com.png" alt=""><p>VS Code</p></div>
+                  <div class=" skill skill-white"><img src="images/social.png" alt=""><p>Git</p></div>
+                </div>
+              </div>
+              <div id="education" class="block ">
+                <p style="color:#3c99b6 ;">2020-24</p>
+                <p>Gokaraju Rangaraju Institute of Engineering and Technology</p>
+                
+                <p style="margin-top: 3vmin ; color:#3c99b6 ;">2018-20</p>
+                <p>Sri Chaitanya Junior Kalashala</p>
+  
+                <p style="margin-top: 3vmin ;color:#3c99b6 ;">2017-18</p>
+                <p>Keshava Reddy School</p>
+              </div>
+              <div id="experience" class="block">
+                <p>As a Frontend Developer at Omega Infotech for 3 months, I was responsible for designing and implementing user-facing features using HTML, CSS, and JavaScript. My work involved collaborating closely with designers and backend developers to create seamless, responsive, and visually appealing web applications. I contributed to optimizing web performance and ensuring cross-browser compatibility while adhering to industry best practices. Additionally, I worked on enhancing the user experience by integrating modern frontend technologies and frameworks, enabling efficient and intuitive interactions for users.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+  <!-- Projects -->
+      <div id="projects">
+        <div class="project-heading project-white"><p>Projects</p></div>
+        <div class="project-title title-white"><p>Welcome to my portfolio web development! Explore a collection of projects showcasing my expertise in frontend development</p></div>
+        <div id="container">
+          <div class="project-img">
+            <img src="images/academy.jpg" alt="">
+            <a href="https://abhilash6102.github.io/academy/" target="_blank">
+            <div class="image-title">
+              <div class="website">Academy Website</div>
+              <div><p>Empowering Learning, One Click at a Time. Explore Now</p></div>
+              <div class="arrow"><img src="images/link arrow.png" alt=""></div>
+            </div>
+            </a>        
+          </div>
+          <div class="project-img">
+            <img src="images/quiz app.jpg" alt="">
+            <a href="https://abhilash6102.github.io/Quiz-app/" target="_blank">
+              <div class="image-title">
+                <div class="website">Quiz App</div>
+                <div><p>Challenge Your Mind, Anytime, Anywhere. Explore Now</p></div>
+                <div class="arrow"><img src="images/link arrow.png" alt=""></div>
+            </div>
+            </a>         
+          </div>
+          <div class="project-img">
+            <img src="images/royal enfield.jpg" alt="">
+            <a href="https://abhilash6102.github.io/Product-landing/" target="_blank">
+              <div class="image-title">
+                <div class="website">Royal Enfield</div>
+                <div><p>Ride the Legacy, Live the Adventure. Explore Now</p></div>
+                <div class="arrow"><img src="images/link arrow.png" alt=""></div>
+            </div>
+            </a>        
+          </div>
+          <div class="project-img">
+            <img src="images/tic tac toe.jpg" alt="">
+            <a href="https://abhilash6102.github.io/Tic-tac-toe/" target="_blank">
+              <div class="image-title">
+                <div class="website">Tic Tac Toe</div>
+                <div><p>A Timeless Game, Reimagined. Explore Now</p></div>
+                <div class="arrow"><img src="images/link arrow.png" alt=""></div>
+            </div>
+            </a>
+          </div>
+          <div class="project-img">
+            <img src="images/todo list.jpg" alt="">
+            <a href="https://abhilash6102.github.io/Todo-List/" target="_blank">
+              <div class="image-title">
+                <div class="website">Todo List</div>
+                <div><p>Organize Your Day, Simplify Your Life. Explore Now</p></div>
+                <div class="arrow"><img src="images/link arrow.png" alt=""></div>
+            </div>
+            </a>        
+          </div>
+          <div class="project-img">
+            <img src="images/weather forecast.avif" alt="">
+            <a href="https://abhilash6102.github.io/weather-forecasting/" target="_blank">
+              <div class="image-title">
+                <div class="website">Weather Forecasting</div>
+                <div><p>Know Tomorrow, Plan Today. Explore Now</p></div>
+                <div class="arrow"><img src="images/link arrow.png" alt=""></div>
+            </div>
+            </a>        
+          </div>
+          <div class="project-img">
+            <img src="images/calculator.jpg" alt="">
+            <a href="https://abhilash6102.github.io/calculator/" target="_blank">
+              <div class="image-title">
+                <div class="website">Calculator</div>
+                <div><p>Smart Calculations at Your Fingertips. Explore Now</p></div>
+                <div class="arrow"><img src="images/link arrow.png" alt=""></div>
+            </div>
+            </a>        
+          </div>
+          <div class="project-img">
+            <img src="images/countdown timer.avif" alt="">
+            <a href="https://abhilash6102.github.io/countdown-timer/" target="_blank">
+              <div class="image-title">
+                <div class="website">Countdown Timer</div>
+                <div><p>Count Moments, Not Minutes. Explore Now</p></div>
+                <div class="arrow"><img src="images/link arrow.png" alt=""></div>
+            </div>
+            </a>        
+          </div>
+        </div>
+  
+        <div class="showmore">
+          <button class="contactme btn-grad">
+            <p>Show More</p>
+            <img src="images/side Arrow.png" alt="">
+          </button>
+        </div>
+      </div>
+  
+  <!-- Contact me -->
+      <div id="contact">
+        <div class="contact-heading contact-white"><p>Contact Me</p></div>
+        <div class="getintouch touch-white">
+          <div class="contact-info">
+            <p class="p">Contact Info</p>
+            <div class="info">
+              <div class="mail">
+                <img src="images/email.png" alt="" class="black-image">
+                <img src="images/email-white.png" alt="" class="white-image">
+                <div class="gmail">
+                  <p>Mail me</p>
+                  <p>kanchukota.abhilash6102@gmail.com</p>
+                </div>
+              </div>
+              <div class="mobile">
+                <img src="images/phone-call.png" alt="" class="black-image">
+                <img src="images/phone-call-white.png" alt="" class="white-image">
+                <div class="number">
+                  <p>Contact me</p>
+                  <p>+91 6304268209</p>
+                </div>
+              </div>
+            </div>
+            <div class="underline"></div>
+            <div class="social-info">
+              <p class="social">Social Info</p>
+              <div class="media">
+                <a href="https://www.facebook.com/profile.php?id=100017340062209&mibextid=ZbWKwL" target="_blank"><img src="images/facebook.png" alt="" class="facebook black-image"></a>
+                <a href="https://www.instagram.com/abhilash_6102/" target="_blank"><img src="images/instagram.png" alt="" class="instagram black-image"></a>
+                <a href="https://www.linkedin.com/in/kanchukota-abhilash-a0004a240" target="_blank"><img src="images/linkedin.png" alt="" class="linkedin black-image"></a>
+              </div>
+              <div class="media">
+                <a href="https://www.facebook.com/profile.php?id=100017340062209&mibextid=ZbWKwL" target="_blank"><img src="images/facebook-white.png" alt="" class="facebook white-image"></a>
+                <a href="https://www.instagram.com/abhilash_6102/" target="_blank"><img src="images/instagram-white.png" alt="" class="instagram white-image"></a>
+                <a href="https://www.linkedin.com/in/kanchukota-abhilash-a0004a240" target="_blank"><img src="images/linkedin-white.png" alt="" class="linkedin white-image"></a>
+              </div>
+            </div>
+          </div>
+          <div class="message">
+            <form id="comment">
+              <input type="text" id="name" name="name" placeholder="Name" class="form" required>
+              <input type="email" id="email" name="email" placeholder="Email" class="form" required>
+              <textarea id="comment" name="comment" id="" cols="30" rows="10" placeholder="Message" class="form"></textarea>
+              <button type="submit" class="btn">Send Message</button>
+          </form>
+          </div>
+        </div>
+      </div>
+      
+  <!-- copyright -->
+       <div class="line"></div>
+       <div class="copyright copyright-white">
+        <p>Copyright &#169 2025. All rights are reserved by Abhilash.</p>
+       </div>
+    </div>
+
+    <script src="protfolio.js"></script>
+  </body>
+</html>
+
